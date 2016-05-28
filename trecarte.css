@@ -1,0 +1,113 @@
+/* CSS Document */
+
+#contenitore {
+	background-color: green;
+	width: 1000px;
+	height: 600px;
+	text-align: center;
+	z-index: 0;
+	left: 50%;
+	margin-left: -500px;
+	position: absolute;
+	font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+}
+
+#carte {
+	width: 1000px;
+	height: 360px;
+	z-index: 1;
+}
+#uno:hover, #due:hover, #tre:hover {
+  -webkit-box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.75);
+  border-radius: 8px;
+}
+#rovescia {
+	font-size: 36px;
+}
+#countdown {
+	background: rgba(255,255,255,0.5);
+	width: 810px;
+	height: 367px;
+	left: 50%;
+	margin-left: -405px;
+	text-align: center;
+	z-index: 2;
+	position: absolute;
+	top: 84px;
+}
+#gioca {
+	background: rgba(255,255,255,0.5);
+	width: 810px;
+	height: 367px;
+	left: 50%;
+	margin-left: -405px;
+	text-align: center;
+	z-index: 2;
+	position: absolute;
+	top: 84px;
+	display: none;
+}
+#numero {
+	height:100px;
+	margin-top: 120px;
+	top: -50px;
+}
+#rovescia {
+	display: none;
+	font-size:99px;
+}
+#risultato {
+	font-size:75px;
+}
+#punteggio {
+	font-size: 30px;
+}
+#koso {
+	height:100px;
+	margin-top: 100px;
+	top: -50px;
+}
+#titolo {
+	color: white;
+}
+@media (max-width: 1024px) {
+	body {
+		background-color: green;
+	}
+	#contenitore {
+		background-color: green;
+		width: 1000px;
+		height: 600px;
+		text-align: center;
+		z-index: 0;
+		left: 50%;
+		margin-left: -500px;
+		position: absolute;
+		font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+	}
+	#countdown {
+		background: rgba(255,255,255,0.5);
+		width: 810px;
+		height: 367px;
+		left: 50%;
+		margin-left: -405px;
+		text-align: center;
+		z-index: 2;
+		position: absolute;
+		top: 78px;
+	}
+	#gioca {
+		background: rgba(255,255,255,0.5);
+		width: 810px;
+		height: 367px;
+		left: 50%;
+		margin-left: -405px;
+		text-align: center;
+		z-index: 2;
+		position: absolute;
+		top: 78px;
+		display: none;
+	}
+}
